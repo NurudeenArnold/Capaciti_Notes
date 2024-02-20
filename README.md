@@ -164,4 +164,24 @@ td = table data
 -------------------------------------------------------------------------
 # CSS
 -------------------------------------------------------------------------
+Selector
+|  Property  Value
+p {  |       |
+    Color: red;
+}
+
+Color themes: https://www.canva.com/colors/color-palette-generator/
+
+IDs
+- Individual names
+Classes
+- Could have same name
+
+Hex Values start from 0-9 and a-f
+
+Box Model
+- Margin
+- Border
+- Padding
+- Content
 
