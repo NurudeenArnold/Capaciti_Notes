@@ -185,3 +185,66 @@ Box Model
 - Padding
 - Content
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+Units 4-8 HTML
+-----------------------------------------------
+src in image tag is the image url
+alt is alternative text for the image
+describe the image in the alt section 
+
+image needs to be in file format in order for the web browswers to understand
+its best to aim for highest quality with the least size
+-----------------------------------------------
+each image format has different ways to compress them, here are 4 formats:
+
+GIF
+compressing illustrations, supports 256 colours
+might look pixedlated
+can be transparent but might have jagged edges
+
+SVG
+commonly usd for illustrations
+is a vector
+prog lang for graphics
+
+JPG
+compressing photographs
+resize and compress is neccessary
+can be compressed at the price of color information
+
+PNG
+Great for transparency
+PNG > GIF and JPG in compressing certain images
+-----------------------------------------------
+
+CSS used for responsiveness in images
+HTML can be used to deliver different images based on screen sizes
+
+
