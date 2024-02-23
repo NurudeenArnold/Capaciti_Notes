@@ -252,3 +252,5 @@ Always give the browser more info if the image is small
 srcset is used to provide a different set of images based on your density and viewport width
 
 
+
+
