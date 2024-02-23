@@ -247,4 +247,8 @@ PNG > GIF and JPG in compressing certain images
 CSS used for responsiveness in images
 HTML can be used to deliver different images based on screen sizes
 
+Always give the browser more info if the image is small
+
+srcset is used to provide a different set of images based on your density and viewport width
+
 
