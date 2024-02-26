@@ -213,7 +213,7 @@ Box Model
 
 
 -----------------------------------------------
-Units 4-8 HTML
+Units 5-8 HTML rev
 -----------------------------------------------
 src in image tag is the image url
 alt is alternative text for the image
@@ -249,7 +249,41 @@ HTML can be used to deliver different images based on screen sizes
 
 Always give the browser more info if the image is small
 
-srcset is used to provide a different set of images based on your density and viewport width
+srcset is used to provide a different set of images based on your density and viewport width using 1x, 1.5x, 2x and 4x, or 480w 960w, etc
+srcset="elva-fairy-480w.jpg 480w, 
+        elva-fairy-800w.jpg 800w"
+
+Image demo size from 27k to 593k
+
+<figure>
+  <img src="ewfbmpov.jpg" ............>
+  <figcaption>This is the figcaption that is under the image</figcaption>
+</figure>
+
+controls in audio tag gives the play button, timeline and volume control.
+
+audio tag has an open adn closing tag 
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+video tag aswell has an opening and closing tag
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+H.264 is a video codec and is NOT open source and is owned by CONSORTIUM
+
+AV1 might overtake H.264 and is free and can be used for images and audio
+
+
+
+
+
 
 
 
