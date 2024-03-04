@@ -280,6 +280,50 @@ H.264 is a video codec and is NOT open source and is owned by CONSORTIUM
 
 AV1 might overtake H.264 and is free and can be used for images and audio
 
+----------------------------------------------------------
+#CSS
+----------------------------------------------------------
+select class (.class)
+HEX colors are 6 digits long consisting of num 0-9 and A-F
+It can also be 3 digits if it has repeating digits in them (#7778899 -> #789)
+Opacity could also be stated in the rgb value at the end of the set of numbers (rgba(119,136,153,0.8) 0.8 is the opacity)
+
+GIF 
+256 colors
+Transparent
+Animation
+Illustrations
+
+PNG
+16m colors
+Transparent
+Ilustrations
+
+JPG
+16m colors
+Photo
+
+WEBP
+new
+high compression
+
+Absolute - Don't change with screen size:
+Points
+Pixels
+
+Relative - Changes with screen size
+Percentage
+Rems
+
+Box model from inside -> out
+Content 
+Padding
+Border
+Margin
+
+Border-radius: 50%; for circle image
+
+
 
 
 
