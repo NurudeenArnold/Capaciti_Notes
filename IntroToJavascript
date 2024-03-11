@@ -48,7 +48,29 @@ ToExponential()
 ToFixed()
 toPrecision() 
 --------------------------------------------------
-Random:
+Objects
+--------------------------------------------------
+A js Object is a HTML element.
+
+Window
+Document
+Form
+Image
+--------------------------------------------------
+Properties
+--------------------------------------------------
+Objects have properties, which is like a characteristic of an object.
+Javascript properties can also be an object.
+--------------------------------------------------
+Methods
+--------------------------------------------------
+Methods are actions that applies directly to objects
+Methods can hold parameters in their brackets, eg, Method(Parameter)
+
+A parameter is used in the method in order to complete the action of the method, alert is an example of this, if you do not give it a parameter, it will not complete the method.
+() is how you can tell the diff between object/prop & methods.
+--------------------------------------------------
+Random Notes:
 --------------------------------------------------
 The Document Object Model is an Application Programming Interface (API) for HTML and XML documents.
 
