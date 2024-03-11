@@ -35,3 +35,20 @@ NOTES FROM W3SCHOOLS EXERCISE: https://www.w3schools.com/jsref/jsref_type_conver
 function(){} = true;
 {} = true;
 --------------------------------------------------
+Formatting Numbers:
+--------------------------------------------------
+ParseInt() = converts string to int, better to use this as it would ignore any letters and only convert the number;
+Number() = converts string to int, but this would give an error if any letter are in it;
+ParseFloat() = converts string to float, this would contain decimals;
+--------------------------------------------------
+Other Formatting:
+--------------------------------------------------
+ToString()
+ToExponential()
+ToFixed()
+toPrecision() 
+--------------------------------------------------
+Random:
+--------------------------------------------------
+The Document Object Model is an Application Programming Interface (API) for HTML and XML documents.
+
