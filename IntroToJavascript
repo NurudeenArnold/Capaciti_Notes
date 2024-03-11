@@ -1,3 +1,37 @@
 --------------------------------------------------
 #JS
 --------------------------------------------------
+Number Conversion
+--------------------------------------------------
+Undefined = NaN
+Null = 0
+true = 1
+false = 0
+string = spaces are removed, if empty, the result will be 0, otherwise, if it isn't a number, it will be NaN (Undefined)
+
+Examples: 
+alert( Number("123") ); // 123  
+alert( Number("123z") ); // NaN (error reading a number at "z")  
+alert( Number(true) );  // 1  
+alert( Number(false) );  // 0  
+
+--------------------------------------------------
+Boolean Conversion
+--------------------------------------------------
+Values that are 0, empty, null, undefined, and NaN, become false. 
+Anything else becomes true.
+
+Examples:
+alert( Boolean(0) ); // false  
+alert( Boolean("hello") ); // true  
+alert( Boolean("") ); // false  
+alert( Boolean(1) ); // true 
+
+--------------------------------------------------
+NOTES FROM W3SCHOOLS EXERCISE: https://www.w3schools.com/jsref/jsref_type_conversion.asp
+--------------------------------------------------
+"0" = true: this is because it does not convert the string, it only considers it's length and so since it's not empty, it is true;
+[] = true;
+function(){} = true;
+{} = true;
+--------------------------------------------------
