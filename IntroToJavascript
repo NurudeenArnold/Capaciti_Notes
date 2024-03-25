@@ -70,6 +70,62 @@ Methods can hold parameters in their brackets, eg, Method(Parameter)
 A parameter is used in the method in order to complete the action of the method, alert is an example of this, if you do not give it a parameter, it will not complete the method.
 () is how you can tell the diff between object/prop & methods.
 --------------------------------------------------
+Regular Expressions:
+--------------------------------------------------
+A sequence of characters taht forms a search pattern, when you search for data, you can use regex to describe what you're searching for.
+Exmaple: let waldoIsHiding = "Somewhere Waldo is hiding in this text."; let waldoRegex = /Waldo/; 
+--------------------------------------------------
+Switch Case:
+--------------------------------------------------
+The value of the expression is compared with the values of each case. 
+If there is a match, the associated block of code is executed. 
+If there is no match, the default code block is executed. 
+
+break keyword breaks out of the switch block
+default keyword block runs if there is no matching case.
+switch cases use strict comparison (===)
+--------------------------------------------------
+Methods of Window Object:
+--------------------------------------------------
+alert()
+Displays the alert box containing message with ok button.
+
+confirm()
+Displays the confirm dialog box containing message with ok and cancel button.
+
+prompt()
+Displays a dialog box to get input from the user
+
+open()
+Opens a new window.
+
+close()
+Closes the current window.
+
+setTimeout()
+Perform action after specified time like calling function, evaluating expressions, etc.
+--------------------------------------------------
+Methods of Document Object:
+--------------------------------------------------
+write(“string”)
+Writes the given string on the document.
+
+writeln(“string”)
+Writes the given string on the document with newline character at the end.
+
+getElementById()
+Returns the element having the given id value.
+
+getElementsByName()
+Returns all the elements having the given name value
+
+getElementsByTagName()
+Returns all the elements having the given tag name
+
+getElementsByClassNamer()
+Returns all the elements having the given class name.
+
+--------------------------------------------------
 Random Notes:
 --------------------------------------------------
 The Document Object Model is an Application Programming Interface (API) for HTML and XML documents.
