@@ -205,6 +205,7 @@ Window/Document Events:
 OnLoad/Load event executes when the window is loaded on the web page
 Unload event executes when the user tries to leave the webpage
 The resize event occurs when a user resizes the browser window.
+--------------------------------------------------
 
 --------------------------------------------------
 Random Notes:
