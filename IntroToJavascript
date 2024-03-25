@@ -124,9 +124,91 @@ Returns all the elements having the given tag name
 
 getElementsByClassNamer()
 Returns all the elements having the given class name.
+--------------------------------------------------
+Event Handling:
+--------------------------------------------------
+OnSubmit Event, this occurs on form submission and will run the code inside the block.
+On Event Handlers are used to handle how each element would react to an event on them. eg, onclick, focus, etc
+--------------------------------------------------
+Date Object:
+--------------------------------------------------
+new Date()  
+Current date and time  
+
+new Date(timestamp)  
+Creates date based on milliseconds since Epoch time  
+
+new Date(date string)  
+Creates date based on date string  
+
+new Date(year, month, day, hours, minutes, seconds, milliseconds)  
+Creates date based on specified date and time  
+
+--- Retriveing Date: ---
+
+Year  
+getFullYear()  
+YYYY  
+1970  
+
+Month  
+getMonth()  
+0-11  
+0 = January  
+
+Day (of the month)  
+getDate()  
+1-31  
+1 = 1st of the month 
+
+Day (of the week)  
+getDay()  
+0-6  
+0 = Sunday  
+
+Hour  
+getHours()  
+0-23  
+0 = midnight  
+
+Minute  
+getMinutes()  
+0-59  
+
+Second  
+getSeconds()  
+0-59  
+
+Millisecond  
+getMilliseconds()  
+0-999  
+
+Timestamp  
+getTime()  
+Milliseconds since Epoch time 
+--------------------------------------------------
+Keyboard Events:
+--------------------------------------------------
+keyup event executes when any key on the keyboard is released -key code
+keydown event executes when any key on the keyboard is pressed -key code
+keypressed event executes when a key is clicked that represents a character, this event is depreciated in favour of keyup and keydown - ASCII
+--------------------------------------------------
+Form Events:
+--------------------------------------------------
+OnFocus event executes when an element is focused on
+OnBlur event occurs when the user takes the focus away from a form element or a window.
+OnChange event executes when a value of a form element is changed by the user.
+OnSubmit event occurs when the form is submitted
+--------------------------------------------------
+Window/Document Events:
+--------------------------------------------------
+OnLoad/Load event executes when the window is loaded on the web page
+Unload event executes when the user tries to leave the webpage
+The resize event occurs when a user resizes the browser window.
 
 --------------------------------------------------
 Random Notes:
 --------------------------------------------------
 The Document Object Model is an Application Programming Interface (API) for HTML and XML documents.
+innerHTML is a JavaScript property used to access and modify the HTML content within an element. It allows dynamic updates by setting its value to HTML markup strings.
 
