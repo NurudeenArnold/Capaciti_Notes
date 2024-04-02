@@ -1,3 +1,10 @@
 --------------------------------------------------
 #Node.js Notes
 --------------------------------------------------
+--------------------------------------------------
+Introduction to Node JS
+--------------------------------------------------
+Originated in 2009
+Runs on JS
+NPM released in 2011
+NPM - Node Package Manager - sharing of open-source node libraries
