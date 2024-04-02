@@ -206,10 +206,44 @@ OnLoad/Load event executes when the window is loaded on the web page
 Unload event executes when the user tries to leave the webpage
 The resize event occurs when a user resizes the browser window.
 --------------------------------------------------
-
+Program Flowcharts:
+--------------------------------------------------
+Terminator:
+  Begin and End
+  Rectangle w rounded corners
+Process (Calculations?): 
+  An instruction that needs to be done
+  Recangle w sharp edges
+Arrow: 
+  Used to rep flow
+Decision: 
+  Selection or Repitition
+  Diamond shape
+Input/Output:
+  Rhomboid (skewed rectangle)
+  User Input or Program Display
+Subprogram:
+  To ref another program
+--------------------------------------------------
+Loops in JS
+--------------------------------------------------
+for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+for/of - loops through the values of an iterable object 
+while - loops through a block of code while a specified condition is true
+do/while - also loops through a block of code while a specified condition is true
+--------------------------------------------------
+Media Optimization:
+--------------------------------------------------
+Image optimization:
+  https://imagecompressor.com/
+GZip:
+  https://github.com/expressjs/compression
 --------------------------------------------------
 Random Notes:
 --------------------------------------------------
 The Document Object Model is an Application Programming Interface (API) for HTML and XML documents.
 innerHTML is a JavaScript property used to access and modify the HTML content within an element. It allows dynamic updates by setting its value to HTML markup strings.
+SEO - Search Engine Optimization
+CDN - Content Distrubution Network - Cloudflare - Used to help International loading times on websites
 
