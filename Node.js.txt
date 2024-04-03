@@ -8,10 +8,23 @@ Originated in 2009
 Runs on JS
 NPM released in 2011
 NPM - Node Package Manager - sharing of open-source node libraries
-fs - File System
+
+fs - File System - used for readFile, readdir, etc.
+readFile is used to read a file, usually json. eg.
+fs.readFile("./data.json", "utf-8" , (err,data) => {
+    var data = JSON.parse(data)
+    console.log(data.name);
+    console.log(typeof(data))
+}) OUTPUT: Tim
+
+readdir is used to read a directory. eg.
+fs.readdir("c:/" , (err,data) => {
+    console.log(data);
+}) OUTPUT: Program Files, Program Files (x86), etc.
 
 "npm i nodemon -g" to install nodemon globally
 "npm run nodemon" to run nodemon (change file under scripts if neccessary in package.json)
 nodemon is used for efficiency by running the js file that it is watching if any changes are made to it or any changes made to any fie that the specific js file is referencing.
 make use of fs to read files
 JSON.parse(file) - To convert JSON fromatted string to an object to obtain data from the JSON file, if you do not do this, you will return undefined if referencing properties in the object.
+"require" is to reference modules, to get another var from another module, you use "module.exports.myText = "text";" 
