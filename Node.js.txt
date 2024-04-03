@@ -8,6 +8,7 @@ Originated in 2009
 Runs on JS
 NPM released in 2011
 NPM - Node Package Manager - sharing of open-source node libraries
+ORM - Object Relational Mapper
 
 fs - File System - used for readFile, readdir, etc.
 readFile is used to read a file, usually json. eg.
