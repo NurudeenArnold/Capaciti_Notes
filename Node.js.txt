@@ -8,3 +8,10 @@ Originated in 2009
 Runs on JS
 NPM released in 2011
 NPM - Node Package Manager - sharing of open-source node libraries
+fs - File System
+
+"npm i nodemon -g" to install nodemon globally
+"npm run nodemon" to run nodemon (change file under scripts if neccessary in package.json)
+nodemon is used for efficiency by running the js file that it is watching if any changes are made to it or any changes made to any fie that the specific js file is referencing.
+make use of fs to read files
+JSON.parse(file) - To convert JSON fromatted string to an object to obtain data from the JSON file, if you do not do this, you will return undefined if referencing properties in the object.
