@@ -1,3 +1,14 @@
 ---------------------------------------------
 React Notes
 ---------------------------------------------
+React is a js library originated from Facebook adn went Open Source in March 2013.
+Twttier Netflix Microsoft uses React.
+JSX - JavaScript XML
+This would go in the head of the page >>>>>>>
+<script 
+  src = "unpkg.com/babel-standalone@6/babel.min.js" crossorigin>
+</script>
+To create a react app one would type into the Terminal: >>>>>>>>>>
+  npx create-react-app your-project-name
+"npm start" to run it
+UseState() is used for handling state variables
