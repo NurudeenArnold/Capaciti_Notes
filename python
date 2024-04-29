@@ -1,3 +1,8 @@
 ---------------------------------------------
 Python Notes:
 ---------------------------------------------
+When assigning 2 variables to one another, they will use the same memory allocation.
+
+print("Hello World") #This will print "Hello World".
+print keyword to print to console/terminal.
+"#" is used to make inline comments
