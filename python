@@ -18,3 +18,10 @@ Operators are instuctions that perform operations on variables and values in pyt
 arithmetic operator is most common and used for mathematical calculations.
 "*" is used to multiply 
 exponent operator used to raise a number to a power.
+"/" is used to divide.
+"%" is used to divide and return the remainder, it is called modulus.
+"*" in context of a string var can multiply the string to repeat multiple times.
+Logical operators = AND, OR, NOT.
+AND = both values are true, 
+OR = atleast one values is true,
+NOT = will flip the boolean value, so if it's true, NOT will makes it false
