@@ -13,4 +13,8 @@ you cannot add string and numbers using "+"
 data structures allows us to store a list of values in a single variable.
 List = data structure, allows us to store multiple variable types, inc a list inside a list.
 "List.length" can be used to determine the length of a list.
-Tuples, Sets are similiar to lists, Tuples cannot be modified and sets contains unique elements and is declared using curly braces.
+Tuples, Sets are similiar to lists, Tuples cannot be modified and sets contains unique elements and is declared using curly braces and accessed using keys.
+Operators are instuctions that perform operations on variables and values in python.
+arithmetic operator is most common and used for mathematical calculations.
+"*" is used to multiply 
+exponent operator used to raise a number to a power.
