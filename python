@@ -23,11 +23,17 @@ Logical operators = AND, OR, NOT.
 AND = both values are true, 
 OR = atleast one values is true,
 NOT = will flip the boolean value, so if it's true, NOT will makes it false
-Membership operators = "in" and "not in" is to check is value exist in a sequence or not. EXAMPLE:
+Membership operators = "in" and "not in" is to check is value exist in a sequence or not. 
+EXAMPLE:
 if 3 in my_list:
     print("3 is present in the list")
 else:
     print("3 is not present in the list")
+---
+---------------------------------------------
+Control Flow:
+---------------------------------------------
+
 ---------------------------------------------
 Random:
 ---------------------------------------------
