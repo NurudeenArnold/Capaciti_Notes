@@ -83,6 +83,7 @@ dog1 and dog2
 ---------------------------------------------
 Random:
 ---------------------------------------------
+When getting the type of an instance of a class, it will return the class name.
 When assigning 2 variables to one another, they will use the same memory allocation.
 print("Hello World") #This will print "Hello World".
 print keyword to print to console/terminal.
