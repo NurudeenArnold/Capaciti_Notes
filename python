@@ -81,6 +81,17 @@ dog2.speak()
 create an instance of a class = creating an object of that class. In the exmaple, the objects would be:
 dog1 and dog2
 ---------------------------------------------
+Ints and Floats:
+---------------------------------------------
+Math operations between float and int would return a float.
+int function is used to convert flaot ot int, this is also knwn as casting.
+8.9 would become 8 when casting as it would only remove the decimal part without rounding.
+round function is used to round off a float. you can specify the amount of decimals you'd want it to return.
+---------------------------------------------
+Alternative Number Types:
+---------------------------------------------
+
+---------------------------------------------
 Random:
 ---------------------------------------------
 When getting the type of an instance of a class, it will return the class name.
