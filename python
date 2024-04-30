@@ -47,6 +47,12 @@ while a < 5:
 ---
 It is important the value you using in a while loop will return false eventually or it will be an infinite loop.
 ---------------------------------------------
+Functions:
+---------------------------------------------
+"def" keyword is used to declare functions, eg, def my_fun(argument)
+"return" keyword is used to specify the output.
+to call the function you would type the name and the parenthesis, and inside the requred vars if it takes any.
+---------------------------------------------
 Random:
 ---------------------------------------------
 When assigning 2 variables to one another, they will use the same memory allocation.
