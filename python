@@ -33,7 +33,19 @@ else:
 ---------------------------------------------
 Control Flow:
 ---------------------------------------------
-
+If statment is one of three main types on control flow, it allows us to execute a block of code only if a certain condition is met.
+for loop can be used to iterate an object,
+EXAMPLE:
+for item in my_list: 
+    print item
+---
+while loop will iterate until a condition is false,
+EXAMPLE:
+a = 0 
+while a < 5: 
+    print a, a = a + 1
+---
+It is important the value you using in a while loop will return false eventually or it will be an infinite loop.
 ---------------------------------------------
 Random:
 ---------------------------------------------
@@ -41,3 +53,4 @@ When assigning 2 variables to one another, they will use the same memory allocat
 print("Hello World") #This will print "Hello World".
 print keyword to print to console/terminal.
 "#" is used to make inline comments
+INDENTATION is VERY important in python.
