@@ -53,6 +53,34 @@ Functions:
 "return" keyword is used to specify the output.
 to call the function you would type the name and the parenthesis, and inside the requred vars if it takes any.
 ---------------------------------------------
+Classes and Objects:
+---------------------------------------------
+Why we use classes:
+Organization, Abstraction, Reusability, Inheritance and Polymorphism.
+EXAMPLE:
+# Define class
+class Dog:
+    def __init__(self, name, legs=4):
+        self.name = name
+        self.legs = legs
+
+    def speak(self):
+        print("Woof!")
+
+# Creating instances of the Dog class
+dog1 = Dog("Rover")
+dog2 = Dog("Buddy", legs=3)
+
+# Accessing attributes and calling methods
+print(f"{dog1.name} has {dog1.legs} legs.") OUTPUT: Rover has 4 legs. Woof!
+dog1.speak()
+
+print(f"{dog2.name} has {dog2.legs} legs.") OUTPUT: Buddy has 3 legs. Woof!
+dog2.speak()
+---
+create an instance of a class = creating an object of that class. In the exmaple, the objects would be:
+dog1 and dog2
+---------------------------------------------
 Random:
 ---------------------------------------------
 When assigning 2 variables to one another, they will use the same memory allocation.
