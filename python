@@ -6,3 +6,11 @@ When assigning 2 variables to one another, they will use the same memory allocat
 print("Hello World") #This will print "Hello World".
 print keyword to print to console/terminal.
 "#" is used to make inline comments
+"=" Assignment Operator
+vairables cannot start with a number
+"+" for string can be used to concatenate them
+you cannot add string and numbers using "+"
+data structures allows us to store a list of values in a single variable.
+List = data structure, allows us to store multiple variable types, inc a list inside a list.
+"List.length" can be used to determine the length of a list.
+Tuples, Sets are similiar to lists, Tuples cannot be modified and sets contains unique elements and is declared using curly braces.
