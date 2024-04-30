@@ -88,9 +88,12 @@ int function is used to convert flaot ot int, this is also knwn as casting.
 8.9 would become 8 when casting as it would only remove the decimal part without rounding.
 round function is used to round off a float. you can specify the amount of decimals you'd want it to return.
 ---------------------------------------------
-Alternative Number Types:
+Booleans:
 ---------------------------------------------
-
+1 = true
+0 = false
+any string is true except the empty string which is false.
+empty list = false, if any item is found = true
 ---------------------------------------------
 Random:
 ---------------------------------------------
