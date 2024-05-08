@@ -95,6 +95,17 @@ Booleans:
 any string is true except the empty string which is false.
 empty list = false, if any item is found = true
 ---------------------------------------------
+Classes:
+---------------------------------------------
+To create a class you use the keyword "class className:"
+to make an instance of the class: insName = className("newInstance")
+A static var is declared within a class outside any functions and is usually global across all instances of the class 
+---------------------------------------------
+Inheritance:
+---------------------------------------------
+This is when there is a parent class, eg, Dog, and the child classes (could be dog breeds) inherit from the parent class, such as them having the same amount of legs, a tail, bark etc.
+You could also add other functions to the child class.
+---------------------------------------------
 Random:
 ---------------------------------------------
 When getting the type of an instance of a class, it will return the class name.
