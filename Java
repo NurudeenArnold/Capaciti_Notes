@@ -69,3 +69,143 @@ Java is widely used in various domains, including:
 - Mobile Applications: Java is the primary language for Android app development.
 - Desktop Applications: Java Swing and JavaFX are used for building cross-platform desktop applications.
 - Embedded Systems: Java is used in a variety of embedded systems due to its portability and efficiency.
+----------------------------------------------------------------------------------------------
+Variables:
+----------------------------------------------------------------------------------------------
+Variables are containers for storing data values.
+Data Types: Common data types include int, float, double, char, boolean, String, etc.
+Declaration: Variables must be declared before use.
+---------
+Example:
+
+int myNumber = 5;
+float myFloat = 5.99f;
+char myChar = 'A';
+boolean myBoolean = true;
+String myString = "Hello";
+---------
+----------------------------------------------------------------------------------------------
+Methods
+----------------------------------------------------------------------------------------------
+Methods are blocks of code that perform a specific task and are executed when called.
+Syntax: Methods are defined with a return type, method name, and parameters (if any).
+---------
+Example:
+
+public class MyClass {
+    public void myMethod() {
+        System.out.println("Hello, World!");
+    }
+}
+---------
+----------------------------------------------------------------------------------------------
+Loops: Loops are used to execute a block of code repeatedly.
+----------------------------------------------------------------------------------------------
+For Loop: Executes a block of code a specific number of times.
+----------------------------------------------------------------------------------------------
+--------
+Example:
+
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+--------
+----------------------------------------------------------------------------------------------
+While Loop: Executes a block of code as long as a condition is true.
+----------------------------------------------------------------------------------------------
+--------
+Example:
+
+int i = 0;
+while (i < 5) {
+    System.out.println(i);
+    i++;
+}
+-------
+----------------------------------------------------------------------------------------------
+Do-While Loop: Executes a block of code once, and then repeats the loop as long as a condition is true.
+----------------------------------------------------------------------------------------------
+-------
+Example:
+
+int i = 0;
+do {
+    System.out.println(i);
+    i++;
+} while (i < 5);
+-------
+----------------------------------------------------------------------------------------------
+If Statement
+----------------------------------------------------------------------------------------------
+The if statement is used to execute a block of code if a specified condition is true.
+-------
+Example:
+
+int x = 10;
+if (x > 5) {
+    System.out.println("x is greater than 5");
+}
+-------
+----------------------------------------------------------------------------------------------
+If-Else Statement: Adds an alternative block of code to execute if the condition is false.
+----------------------------------------------------------------------------------------------
+-------
+Example:
+
+int x = 10;
+if (x > 15) {
+    System.out.println("x is greater than 15");
+} else {
+    System.out.println("x is not greater than 15");
+}
+-------
+----------------------------------------------------------------------------------------------
+Else If Statement: Adds more conditions to test if the initial condition is false.
+----------------------------------------------------------------------------------------------
+-------
+Example:
+
+int x = 10;
+if (x > 15) {
+    System.out.println("x is greater than 15");
+} else if (x > 5) {
+    System.out.println("x is greater than 5");
+} else {
+    System.out.println("x is 5 or less");
+}
+----------------------------------------------------------------------------------------------
+Switch Statement
+----------------------------------------------------------------------------------------------
+The switch statement is used to select one of many code blocks to execute.
+-------
+Example:
+
+int day = 3;
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 3:
+        System.out.println("Wednesday");
+        break;
+    case 4:
+        System.out.println("Thursday");
+        break;
+    case 5:
+        System.out.println("Friday");
+        break;
+    case 6:
+        System.out.println("Saturday");
+        break;
+    case 7:
+        System.out.println("Sunday");
+        break;
+    default:
+        System.out.println("Invalid day");
+        break;
+}
+-------
+----------------------------------------------------------------------------------------------
