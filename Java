@@ -93,7 +93,7 @@ Syntax: Methods are defined with a return type, method name, and parameters (if 
 Example:
 
 public class MyClass {
-    public void myMethod() {
+    public static void myMethod() {
         System.out.println("Hello, World!");
     }
 }
