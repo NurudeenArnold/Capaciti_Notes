@@ -209,3 +209,9 @@ switch (day) {
 }
 -------
 ----------------------------------------------------------------------------------------------
+Data Structures:
+----------------------------------------------------------------------------------------------
+A "set" is like a club where you cannot have the same member twice. Think of a deck of cards, each card is different — that is a set.
+A "list" is like a playlist where the order matters, and you can have the same song multiple times. Like your call history, right? It keeps everything in order, and some numbers might show up more than once.
+A "queue" is like a line at the supermarket. People get in at the end and get processed from the front. First come, first served.
+Now, a "map" is a bit different. It is not part of the collection club, but it acts like it. Maps are for keeping pairs together, like a list of bank transactions where each one has a unique ID, and the actual transaction is the other part of the pair.
